@@ -5,29 +5,23 @@
 # - name: Framework
 #   weight: 5
 
-- name: Angular
+- name: Design Thinking
   weight: 5
 
-- name: AngularJS
+- name: WebXR
   weight: 3
 
-- name: React
-  weight: 4
-
-- name: Node
-  weight: 1
-
-- name: Flutter
+- name: LSL
   weight: 2
 
-- name: Express
+- name: MongoDB
+  weight: 1
+
+- name: Mediapipe
+  weight: 2
+
+- name: Agile Design
   weight: 3
 
-- name: Django
-  weight: 1
-
-- name: Spring
-  weight: 2
-
-- name: Rails
-  weight: 4
+- name: Service Design
+  weight: 3

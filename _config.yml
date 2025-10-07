@@ -22,10 +22,7 @@ email: akin5120@mylaurier.ca
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
 github_username: akin5120
-codepen_username: exampleUser
-dev_username: exampleUser
 linkedin_username: temijuyin
-twitter_username: exampleUser
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -35,7 +32,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>. You can also find me on <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-neumorphism/" target="_blank" rel="noreferrer">JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/neumorphism/" target="_blank" rel="noreferrer">Jekyll Themes</a>.
+about_me_description: I’m a UX designer and researcher with a love for immersive design. I design experiences where technology adapts to people, from sports simulations powered by biofeedback to exergames that make rehabilitation playful. I’ve worked across UX research, service design, and immersive systems, building projects that connect design with human emotion, accessibility, and engagement. I enjoy blending research with prototyping and moving from insights to interactions. Outside of design, you’ll find me exploring new tech, designing 3D art and animations, or playing video games. At my core, I’m curious about how design, data, and storytelling can create digital experiences that feel more human.
 
 # SKILLS SECTION
 # show_skills_card:
@@ -54,7 +51,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+cv_download_link: https://63fb823e-735e-45d0-a2cd-5053524c79b1.filesusr.com/ugd/0e5edc_c754a71a36b24f4795a192fdcbe017f3.pdf
 
 # PROJECTS SECTION
 # show_projects_card:
