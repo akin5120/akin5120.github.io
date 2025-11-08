@@ -1,0 +1,53 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+<main id="main" role="main" style="max-width:72ch;margin:2rem auto;padding:0 1rem;">
+  <h1 style="margin:0 0 1rem;">Projects</h1>
+  <p style="color:#555;">Selected case studies and experiments.</p>
+
+  <style>
+  .project-card { padding:1rem; border:1px solid #e6e6e6; border-radius:12px; margin-bottom:1rem; display:flex; gap:1rem; align-items:center; }
+  .project-card h3 { margin:0 0 .25rem; }
+  .tag-list { display:flex; flex-wrap:wrap; gap:.5rem; padding:0; margin:.5rem 0 0; list-style:none; }
+  .tag { font-size:.85rem; padding:.15rem .5rem; border:1px solid #ddd; border-radius:999px; }
+  .btn { display:inline-block; margin-top:.75rem; padding:.5rem .85rem; border:1px solid #111; border-radius:8px; text-decoration:none; }
+  </style>
+
+  {%- for project in site.data.projects -%}
+    {%- assign page_match = site.pages | where: "slug", project.slug | first -%}
+    {%- capture slug_fallback -%}/projects/{{ project.slug }}/ {%- endcapture -%}
+    {%- assign link = page_match.url | default: project.view | default: slug_fallback -%}
+    <article class="project-card">
+      {%- if page_match and page_match.cover_image -%}
+        <img src="{{ page_match.cover_image }}" alt="{{ page_match.title }} cover" loading="lazy" style="width:120px;height:80px;object-fit:cover;border-radius:8px;">
+      {%- endif -%}
+      <div>
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.descr }}</p>
+        {%- if project.tags -%}
+          <ul class="tag-list">
+            {%- if project.tags.first and project.tags.first.tag -%}
+              {%- for t in project.tags -%}
+                <li class="tag">{{ t.tag }}</li>
+              {%- endfor -%}
+            {%- else -%}
+              {%- for t in project.tags -%}
+                <li class="tag">{{ t }}</li>
+              {%- endfor -%}
+            {%- endif -%}
+          </ul>
+        {%- endif -%}
+        {%- if link -%}
+          <a class="btn" href="{{ link | relative_url }}">View</a>
+        {%- endif -%}
+      </div>
+    </article>
+  {%- endfor -%}
+
+  <p style="color:#666;font-size:0.95rem;">Don’t see your project? Ensure the page has a matching <code>slug</code> or set a manual <code>view</code> URL.</p>
+</main>
+
+

@@ -13,24 +13,20 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: ViTAL VR Bioadaptive Hockey Training
-  descr: "A virtual reality sports simulation that adapts to players’ physiological data in real time.
-    Developed using Unity and the ViTAL SDK, the project integrates wearable sensors (Polar H10, EmotiBit)
-    to create a bioadaptive hockey experience where game events respond to stress,
-    focus, and fatigue."
-  demo: https://example.com/
+- name: UX Project- Vibey
+  descr: "User Experience to explore redefining Music experience threough vibration technology for the deaf and hard of hearing."
+  demo: https://juyiakinlade.wixsite.com/juyiiakinlade/copy-of-art-auction-app-1
   tags:
-    - tag: Unity
-    - tag: Adaptive Systems
-    - tag: C#
-    - tag: VR
+    - tag: Product Design
+    - tag: Deaf & Hard Of Hearing
+    - tag: Vibration Technology
+    - tag: Not-for-Profit
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: UX Project - Planpal
+  descr: "A ux project designing how groups plan and experience travel together"
+  demo: https://juyiakinlade.wixsite.com/juyiiakinlade/copy-of-vibey-project
   tags:
-    - tag: Python
-    - tag: Django
+    - tag: UX Design
+    - tag: Travel
+    - tag: Figma
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
