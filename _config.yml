@@ -79,7 +79,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Get in touch if you would like to hear more about my past works, talk design over a cup of coffee, I'd love to hear from you! at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.
+contact_description: Get in touch if you would like to hear more about my past works, talk design over a cup of coffee, I'd love to hear from you!.
 
 # GITHUB-METADATA
 # Set this to your forked repository
