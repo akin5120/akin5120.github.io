@@ -32,7 +32,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: I’m a UX designer and researcher with a love for immersive design. I design experiences where technology adapts to people, from sports simulations powered by biofeedback to exergames that make rehabilitation playful. I’ve worked across UX research, service design, and immersive systems, building projects that connect design with human emotion, accessibility, and engagement. I enjoy blending research with prototyping and moving from insights to interactions. Outside of design, you’ll find me exploring new tech, designing 3D art and animations, or playing video games. At my core, I’m curious about how design, data, and storytelling can create digital experiences that feel more human.
+about_me_description: I’m a UX designer and researcher with a love for immersive design. I design experiences where technology adapts to people, from simulations powered by biofeedback to exergames that make rehabilitation playful. I’ve worked across UX research, service design, and immersive systems, building projects that connect design with human emotion, accessibility, and engagement. I enjoy blending research with prototyping and moving from insights to interactions. Outside of design, you’ll find me exploring new tech, designing 3D art and animations, or playing video games. At my core, I’m curious about how design, data, and storytelling can create digital experiences that feel more human.
 
 # SKILLS SECTION
 # show_skills_card:
@@ -51,7 +51,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://63fb823e-735e-45d0-a2cd-5053524c79b1.filesusr.com/ugd/0e5edc_c754a71a36b24f4795a192fdcbe017f3.pdf
+cv_download_link: https://2ca21e1b-5556-4f67-ad23-b382e7aafc63.filesusr.com/ugd/0e5edc_98237416e9224b9f914ce9c97b0e95de.pdf
 
 # PROJECTS SECTION
 # show_projects_card:
@@ -79,7 +79,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Get in touch if you would like to hear more about my past works, talk design over a cup of coffee, I'd love to hear from you! at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.
+contact_description: Get in touch if you would like to hear more about my past works, talk design over a cup of coffee, I'd love to hear from you!
 
 # GITHUB-METADATA
 # Set this to your forked repository
